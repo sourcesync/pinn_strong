@@ -64,9 +64,7 @@ Copy the file "postprocess_plain.py" into the "examples/adv" directory and run a
 
 ```python postprocess_plain.py```
 
-It will use the last checkpoint model and produce a visual representation of the results of test data on the model.  
-
-It should look like the following:
+It will use the last checkpoint model and produce a visual representation of the results of test data on the model.  It should look like the following:
 
 ![image info](./adv.png)
 
