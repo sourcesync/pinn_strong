@@ -1,8 +1,8 @@
-# PINN Strong: Physics Inspired Neural Networks Leveraging The Strong Compute Cluster
+# PINN Strong: Physics Inspired Neural Networks Leveraging The Strong GPU Cluster
 
 We are leveraging [Strong Compute](https://strongcompute.com/)'s on-demand GPU cluster to build and evaluate high quality PINNs.
 
-# Getting Started With Advection CFD
+# Getting Started: Advection CFD
 
 In these instructions, you will run a simple advection CFD on a single-node Strong GPU.  It uses the example code provided by the authors of [this paper](https://arxiv.org/abs/2308.08468).  Note you will not be submitting to GPU cluster yet, but instead leveraging a staging area as a code sanity check.  Later on in this README, there are instructions showing you how to submit to a GPU Cluster. 
 
@@ -68,8 +68,12 @@ It will use the last checkpoint model and produce a visual representation of the
 
 ![image info](./adv.png)
 
-# Getting Started With Advection CFD Runing On Strong Compute Cluster
+# Advection CFD On Strong GPU Cluster
 
+[TBD]
 
+# Navier Stokes On Strong GPU Cluster
+
+[TBD]
 
 
