@@ -54,7 +54,7 @@ Note that if it takes a lot longer than this, then it's not likely using the GPU
 
 8. When it's done, you can now run a script to validate the results visually.  
 
-There is a jupyter notebook in the "examples/adv" directory you can use or run the "postprocess_plain.py" in this repo.
+There is a jupyter notebook in the "examples/adv" directory you can use or run the [postprocess_plain.py](postprocess_plain.py) in this repo.
 
 First install seaborn as follows:
 
