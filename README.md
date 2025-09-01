@@ -58,7 +58,7 @@ First install seaborn as follows:
 
 ```pip install seaborn```
 
-Copy the file "postprocess_plain.py" into the "examples/adv" directory and run as follows:
+Copy the file [postprocess_plain.py](./postprocess_plot.py) into the "examples/adv" directory and run as follows:
 
 ```python postprocess_plain.py```
 
