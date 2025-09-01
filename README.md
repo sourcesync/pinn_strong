@@ -48,13 +48,11 @@ For me, pip chose tabulate-0.9.0.
 
 Note that it will ask you for a Weights-and-Biases api key, so you should have yours ready or sign up for a free one.
 
-7. Wait until the training finishes.  For me, it took about 20 minutes.  You can monitor the training at Weights-and-Biases.  
+7. Training took me about 20 minutes.  You can monitor the training at Weights-and-Biases.  
 
-Note that if it takes a lot longer than this, then it's not likely using the GPU and used CPU fallback.  
+Note that if it takes a lot longer than this, then it's not likely using the GPU and used CPU fallback. 
 
-8. When it's done, you can now run a script to validate the results visually.  
-
-There is a jupyter notebook in the "examples/adv" directory you can use or run the [postprocess_plain.py](postprocess_plain.py) in this repo.
+8. Validate the results.  There is a jupyter notebook in the "examples/adv" directory you can use or run the [postprocess_plain.py](postprocess_plain.py) in this repo, as follows:
 
 First install seaborn as follows:
 
@@ -64,7 +62,7 @@ Copy the file "postprocess_plain.py" into the "examples/adv" directory and run a
 
 ```python postprocess_plain.py```
 
-It will use the last checkpoint model and produce a visual representation of the results of test data on the model.  It should look like the following:
+It will use the last checkpoint model and exports a visual image of the results, a file named adv.png  It should look like the following:
 
 ![image info](./adv.png)
 
