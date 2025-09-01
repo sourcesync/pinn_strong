@@ -4,7 +4,7 @@ We are leveraging [Strong Compute](https://strongcompute.com/)'s on-demand GPU c
 
 # Getting Started With Advection CFD
 
-In these instructions, you will run a simple advection CFD on a single-node Strong GPU.  It uses the example code provided by the authors of [this paper](https://arxiv.org/abs/2308.08468).  Note you will not being submitting to the Strong compute cluster yet, but instead leveraging a staging area.  This is a useful sanity to make sure all your code is working properly.  Later on in this README, there are instructions for submitting to a GPU Cluster. 
+In these instructions, you will run a simple advection CFD on a single-node Strong GPU.  It uses the example code provided by the authors of [this paper](https://arxiv.org/abs/2308.08468).  Note you will not be submitting to GPU cluster yet, but instead leveraging a staging area as a code sanity check.  Later on in this README, there are instructions showing you how to ssubmit to a GPU Cluster. 
 
 1. Register for an account at [Strong Compute](https://strongcompute.com/) and following the on-boarding instructions.
 
