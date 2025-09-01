@@ -52,3 +52,26 @@ Note that it will ask you for a Weights-and-Biases api key, so you should have y
 
 Note that if it takes a lot longer than this, then it's not likely using the GPU and used CPU fallback.  
 
+8. When it's done, you can now run a script to validate the results visually.  
+
+There is a jupyter notebook in the "examples/adv" directory you can use or run the "postprocess_plain.py" in this repo.
+
+First install seaborn as follows:
+
+```pip install seaborn```
+
+Copy the file "postprocess_plain.py" into the "examples/adv" directory and run as follows:
+
+```python postprocess_plain.py```
+
+It will use the last checkpoint model and produce a visual representation of the results of test data on the model.  
+
+It should look like the following:
+
+![image info](./adv.png)
+
+
+
+
+
+
